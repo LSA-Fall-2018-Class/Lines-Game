@@ -1,0 +1,21 @@
+
+#board {
+  display: flex;
+  width: 500px;
+  height: 450px;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  }
+
+/* Use the . because square is a class */
+.line {
+  height: 150px;
+  width: 50px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
